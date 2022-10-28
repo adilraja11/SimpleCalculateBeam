@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lebar" />
+
+        <EditText
+            android:id="@+id/et_width"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:hint="Masukkan lebar"
+            android:inputType="numberDecimal"
+            android:minHeight="48dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Panjang" />
+
+        <EditText
+            android:id="@+id/et_length"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:hint="Masukkan panjang"
+            android:inputType="numberDecimal"
+            android:minHeight="48dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tinggi" />
+
+        <EditText
+            android:id="@+id/et_height"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:hint="Masukkan tinggi"
+            android:inputType="numberDecimal"
+            android:minHeight="48dp" />
+    <Button
+        android:id="@+id/btn_calculate_volume"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="hitung volume" />
+
+    <Button
+        android:id="@+id/btn_calculate_luas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="hitung Luas Permukaan" />
+
+    <Button
+        android:id="@+id/btn_calculate_keliling"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="hitung Keliling" />
+
+    <TextView
+        android:id="@+id/tv_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="Hasil"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+    </LinearLayout>
+</ScrollView>
