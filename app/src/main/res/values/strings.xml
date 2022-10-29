@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">Praktikum1</string>
+    <string name="width">Lebar</string>
+    <string name="input_witdh">Masukkan lebar</string>
+    <string name="length">Panjang</string>
+    <string name="input_length">Masukkan panjang</string>
+    <string name="height">Tinggi</string>
+    <string name="input_height">Masukkan tinggi</string>
+    <string name="calculate_volume">hitung volume</string>
+    <string name="calculate_luas_permukaan">hitung Luas Permukaan</string>
+    <string name="calculate_keliling">hitung Keliling</string>
+    <string name="result">Hasil</string>
 </resources>

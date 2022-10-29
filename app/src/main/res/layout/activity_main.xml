@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -14,66 +13,69 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Lebar" />
+        android:text="@string/width" />
 
         <EditText
             android:id="@+id/et_width"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="16dp"
-            android:hint="Masukkan lebar"
+            android:hint="@string/input_witdh"
             android:inputType="numberDecimal"
-            android:minHeight="48dp" />
+            android:minHeight="48dp"
+            android:autofillHints="" />
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Panjang" />
+        android:text="@string/length" />
 
         <EditText
             android:id="@+id/et_length"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="16dp"
-            android:hint="Masukkan panjang"
+            android:hint="@string/input_length"
             android:inputType="numberDecimal"
-            android:minHeight="48dp" />
+            android:minHeight="48dp"
+            android:autofillHints="" />
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Tinggi" />
+        android:text="@string/height" />
 
         <EditText
             android:id="@+id/et_height"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="16dp"
-            android:hint="Masukkan tinggi"
+            android:hint="@string/input_height"
             android:inputType="numberDecimal"
-            android:minHeight="48dp" />
+            android:minHeight="48dp"
+            android:autofillHints="" />
     <Button
         android:id="@+id/btn_calculate_volume"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="hitung volume" />
+        android:text="@string/calculate_volume" />
 
     <Button
         android:id="@+id/btn_calculate_luas"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="hitung Luas Permukaan" />
+        android:text="@string/calculate_luas_permukaan" />
 
     <Button
         android:id="@+id/btn_calculate_keliling"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="hitung Keliling" />
+        android:text="@string/calculate_keliling" />
 
     <TextView
         android:id="@+id/tv_result"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="18dp"
-        android:text="Hasil"
+        android:text="@string/result"
         android:textAlignment="center"
         android:textSize="18sp"
         android:textStyle="bold" />
